@@ -3,6 +3,6 @@ const toggleBtn = document.querySelector('.toggleBtn');
 const links = document.querySelector('.links');
 
 toggleBtn.addEventListener('click' , function() {
-    links.classList.toggle('show-links')
+    links.classList.toggle('toggle-links')
 });
 
