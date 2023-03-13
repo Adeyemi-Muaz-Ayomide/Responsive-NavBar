@@ -13,7 +13,7 @@
   }
 }
 
-li.p-3:hover{
+li.p-2:hover{
   background-color: skyblue;
   opacity: 50%;
 }
@@ -25,3 +25,10 @@ span{
 button{
   font-size: 20px;
 }
+
+.links{
+  overflow: hidden;
+}
+/* .show-links{
+  height: 11rem;
+}  */

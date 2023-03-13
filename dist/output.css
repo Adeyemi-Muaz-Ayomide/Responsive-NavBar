@@ -523,10 +523,6 @@ html {
   margin: 0px;
 }
 
-.mt-3{
-  margin-top: 0.75rem;
-}
-
 .block{
   display: block;
 }
@@ -537,6 +533,10 @@ html {
 
 .hidden{
   display: none;
+}
+
+.items-center{
+  align-items: center;
 }
 
 .justify-between{
@@ -560,10 +560,6 @@ html {
   padding: 0.5rem;
 }
 
-.p-3{
-  padding: 0.75rem;
-}
-
 .p-6{
   padding: 1.5rem;
 }
@@ -578,16 +574,11 @@ html {
   line-height: 1.75rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-bold{
   font-weight: 700;
 }
 
-li.p-3:hover{
+li.p-2:hover{
   background-color: skyblue;
   opacity: 50%;
 }
@@ -599,6 +590,14 @@ span{
 button{
   font-size: 20px;
 }
+
+.links{
+  overflow: hidden;
+}
+
+/* .show-links{
+  height: 11rem;
+}  */
 
 @media (min-width: 768px){
   .md\:flex{
