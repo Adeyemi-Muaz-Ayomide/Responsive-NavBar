@@ -5,10 +5,3 @@ const links = document.querySelector('.links');
 toggleBtn.addEventListener('click' , function() {
     links.classList.toggle('hidden')
 });
-
-
-// function toggleNav() {
-//     const navLinks = document.getElementById("navLinks");
-//     navLinks.classList.toggle("hidden");
-//   }
-  
