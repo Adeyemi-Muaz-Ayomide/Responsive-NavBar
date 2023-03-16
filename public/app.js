@@ -3,6 +3,12 @@ const toggleBtn = document.querySelector('.toggleBtn');
 const links = document.querySelector('.links');
 
 toggleBtn.addEventListener('click' , function() {
-    links.classList.toggle('toggle-links')
+    links.classList.toggle('hidden')
 });
 
+
+// function toggleNav() {
+//     const navLinks = document.getElementById("navLinks");
+//     navLinks.classList.toggle("hidden");
+//   }
+  

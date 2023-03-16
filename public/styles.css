@@ -26,9 +26,6 @@ button{
   font-size: 20px;
 }
 
-/* .links{ */
-  /* overflow: hidden; */
-/* } */
-.toggle-links {
-  height: 0rem;
+.hidden {
+  display: none;
 }
